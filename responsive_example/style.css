@@ -11,3 +11,22 @@ img{
     display: flex;
     gap: 5px;
 }
+.second-row > div{
+    flex: 1;
+}
+.row-third-row{
+    display: flex;
+    grid-template-columns: repeat(3,1fr);
+    flex: 1;
+    gap: 5px;
+}
+
+.second-row-third-container img{
+    height: 200px;
+}
+.third-row-second-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 5px;
+    flex: 1;
+}
