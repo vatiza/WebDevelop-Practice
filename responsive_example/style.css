@@ -1,0 +1,13 @@
+img{
+    height: 100%;
+    width: 100%;
+    
+}
+.row{
+    height: 400px;
+    margin-bottom: 5px;
+}
+.second-row{
+    display: flex;
+    gap: 5px;
+}
